@@ -4,9 +4,11 @@ import pandas as pd
 import geopandas as gpd
 from geopandas import GeoDataFrame
 import matplotlib.pyplot as plt
+pip install "altair<5"
 import numpy as np
 import json
 import plotly.express as px
+
 
 
 
