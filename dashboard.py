@@ -1,5 +1,6 @@
 # Libraries
 pip install "altair<5"
+pip install "streamlit>=1.23.0"
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
