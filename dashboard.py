@@ -81,7 +81,7 @@ with col1:
   sm.set_array([]) # or alternatively sm._A = []. Not sure why this step is necessary, but many recommends it
 
   #add the colorbar to the figure
-  fig.colorbar(sm,orientation='horizontal',fraction=0.046, pad=0.04).set_label(label='Hectares',size=20)
+  fig.colorbar(sm,orientation='horizontal',fraction=0.046, pad=0.04, cax=axbig).set_label(label='Hectares',size=20)
   ax.margins(x=0,y=-0.01)
   # create map
   data_year.plot(column=column, cmap='PuRd', linewidth=0.8, ax=ax, edgecolor='0.8')
